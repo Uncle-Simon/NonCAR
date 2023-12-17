@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NonCAR</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Answer the question below:</h1>
+      <h1><span id="alpha-question">What comes </span><span id="before-after">after</span> "<span id="letter">A</span>"?</h1>
+      <hr class="solid">
+
+      <form class="row" id="alpha-form" autocomplete="off">
+        <input id="alpha-input" placeholder="Enter your answer..." />
+        <button type="submit">Answer</button>
+      </form>
+      
+      <p>
+        <button id="skip">Skip</button>
+      </p>
+
+      <h2 id="alpha-correct"></h2>
+    </div>
+  </body>
+</html>
