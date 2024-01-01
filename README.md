@@ -68,6 +68,6 @@ Any contributions you make are greatly appreciated.
 
 ## Acknowledgements
 
-- [Tauri](https://tauri.studio/en/)
+- [Tauri](https://tauri.app/)
 - [Node.js](https://nodejs.org/en/)
 - [Rust](https://www.rust-lang.org/)
